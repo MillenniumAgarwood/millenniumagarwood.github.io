@@ -6,10 +6,40 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Mar 2020 12:51:11 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2020 16:08:28 +0800</lastBuildDate>
     
 	<atom:link href="https://millenniumagarwood.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>欢迎来到ZHOU的博客</title>
+      <link>https://millenniumagarwood.github.io/post/two/</link>
+      <pubDate>Mon, 16 Mar 2020 16:08:28 +0800</pubDate>
+      
+      <guid>https://millenniumagarwood.github.io/post/two/</guid>
+      <description>**一、**Spring Boot 入门 1、Spring Boot 简介  简化Spring应用开发的一个框架；
+整个Spring技术栈的一个大整合；
+J2EE开发的一站式解决方案；
+ 2、微服务 2014，martin fowler
+微服务：架构风格（服务微化）
+一个应用应该是一组小型服务；可以通过HTTP的方式进行互通；
+单体应用：ALL IN ONE
+微服务：每一个功能元素最终都是一个可独立替换和独立升级的软件单元；
+详细参照微服务文档
+3、环境准备 http://www.gulixueyuan.com/ 谷粒学院
+环境约束
+–jdk1.8：Spring Boot 推荐jdk1.7及以上；java version &amp;ldquo;1.8.0_112&amp;rdquo;
+–maven3.x：maven 3.3以上版本；Apache Maven 3.3.9
+–IntelliJIDEA2017：IntelliJ IDEA 2017.2.2 x64、STS
+–SpringBoot 1.5.9.RELEASE：1.5.9；
+统一环境；
+1、MAVEN设置； 给maven 的settings.xml配置文件的profiles标签添加
+&amp;lt;profile&amp;gt; &amp;lt;id&amp;gt;jdk-1.8&amp;lt;/id&amp;gt; &amp;lt;activation&amp;gt; &amp;lt;activeByDefault&amp;gt;true&amp;lt;/activeByDefault&amp;gt; &amp;lt;jdk&amp;gt;1.8&amp;lt;/jdk&amp;gt; &amp;lt;/activation&amp;gt; &amp;lt;properties&amp;gt; &amp;lt;maven.compiler.source&amp;gt;1.8&amp;lt;/maven.compiler.source&amp;gt; &amp;lt;maven.compiler.target&amp;gt;1.8&amp;lt;/maven.compiler.target&amp;gt; &amp;lt;maven.compiler.compilerVersion&amp;gt;1.8&amp;lt;/maven.compiler.compilerVersion&amp;gt; &amp;lt;/properties&amp;gt; &amp;lt;/profile&amp;gt; 2、IDEA设置 整合maven进来；
+![idea设置](E:/xmut/springBoot/Courseware/文档/Spring Boot 笔记/images/搜狗截图20180129151045.png)
+![images/](E:/xmut/springBoot/Courseware/文档/Spring Boot 笔记/images/搜狗截图20180129151112.png)
+4、Spring Boot HelloWorld 一个功能：
+浏览器发送hello请求，服务器接受请求并处理，响应Hello World字符串；</description>
+    </item>
     
     <item>
       <title>我的第一篇博客</title>
